@@ -1,0 +1,10 @@
+services:
+  golang:
+    build: .
+    environment:
+      - COHERE_API_KEY=${COHERE_API_KEY}
+    volumes:
+      - .:/app
+      
+    
+  
